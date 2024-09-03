@@ -1,0 +1,14 @@
+div{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+body{
+    background-color: rgb(4, 13, 20);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
