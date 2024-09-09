@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int a = 0, b = 0;
+
+    printf("digite um num:");
+    scanf("%d", &a);
+    printf("\n digite outro num:");
+    scanf("%d", &b);
+    printf("\n a soma dos dois e: %d", a+b);
+    return 0;
+}
