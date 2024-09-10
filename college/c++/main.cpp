@@ -6,6 +6,8 @@ Welcome to GDB Online.
   Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
+/*AULA 09/09/24*/
+
 #include <stdio.h>
 
 int main()
