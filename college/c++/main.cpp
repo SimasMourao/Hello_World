@@ -21,11 +21,11 @@ int main()
     {
         printf("\n%d e maior que %d\n", a, b);
     }
-    if (a < b)
+    else if (a < b)
     {
         printf("\n%d e maior que %d\n", b, a);
     }
-    if (a == b)
+    else
     {
         printf("\nos dois numeros sao iguaus\n");   
     }
