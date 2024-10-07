@@ -1,26 +1,32 @@
 line = "="
+op = ["+", "-", "*", "/"]
 
-print("Hello World!")
-print(line * 50)
-nUm = float(input("Digite um valor: "))
-print(line * 50)
-op = input("escolha entre as operacoes: | + | - | * | / |  ")
-print(line * 50)
-nDois = float(input("Digite outro valor: "))
-print(line * 50)
+while True:
+   print("Hello World!")
+   print(line * 50)
+   nUm = float(input("Digite um valor: "))
+   opUser = input("escolha entre as operacoes: | + | - | * | / |  ")
+   nDois = float(input("Digite outro valor: "))
+   print(line * 50)
 
-match op:
-    case "+":
-        print(f"{nUm} + {nDois} = {nUm + nDois}")
-    
-    case "-":
-       print(f"{nUm} - {nDois} = {nUm - nDois}")
-    
-    case "*":
-       print(f"{nUm} * {nDois} = {nUm * nDois}")
-    
-    case "/":
-       print(f"{nUm} / {nDois} = {nUm / nDois}")
+   match opUser:
+      case "+":
+         print(f"{nUm} + {nDois} = {nUm + nDois}")
+      
+      case "-":
+         print(f"{nUm} - {nDois} = {nUm - nDois}")
+      
+      case "*":
+         print(f"{nUm} * {nDois} = {nUm * nDois}")
+      
+      case "/":
+         print(f"{nUm} / {nDois} = {nUm / nDois}")
 
-    
+   print(line * 50)  
+   continuar = input("Deseja contnuar?(DIGITE 'S' OU 'N')")
+
+   if  continuar == "N":
+      break
+
+      
     
